@@ -321,7 +321,15 @@ public static double faktorial(int angka){
                     Hasil.setText(String.valueOf(nilai3));
                     break;
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
+        public static double deret(double x, double a, int suku) {
+        double hasil = 1/(1-a);
+        for(int i=1; i<=suku; i++){
+            hasil *=(x-a)/(1-a); 
+        }
+        return hasil;
+}
+    //GEN-LAST:event_jButton1ActionPerformed
 
     private void nilainActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nilainActionPerformed
         // TODO add your handling code here:
@@ -389,8 +397,5 @@ public static double faktorial(int angka){
     private javax.swing.JTextField nilain;
     private javax.swing.JTextField nilaix;
     // End of variables declaration//GEN-END:variables
-
-    private double deret(double x, double a, int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-}
+    
+}    
