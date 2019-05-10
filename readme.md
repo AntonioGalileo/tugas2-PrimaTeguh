@@ -11,5 +11,5 @@ NRP   :06111840000095
 ![Screenshot (19)](https://user-images.githubusercontent.com/49512717/57509411-60b9f400-732e-11e9-9fe8-8d549d874014.png)
 
 ## UPLOAD 
-silahkan upload file solusi dengan nama `PrimaTeguh_TUGAS2.java` 
+PrimaTeguh_TUGAS2.java 
 
