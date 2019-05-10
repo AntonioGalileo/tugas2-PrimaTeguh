@@ -1,10 +1,10 @@
 package Praktikum;
-public class Aproximasi extends javax.swing.JFrame {
+public class PrimaTeguh_TUGAS2 extends javax.swing.JFrame {
 
     /**
      * Creates new form Aproksimasi
      */
-    public Aproximasi() {
+    public PrimaTeguh_TUGAS2() {
         initComponents();
     }
 
@@ -250,6 +250,7 @@ public static double faktorial(int angka){
         nilaia.setText("");
         nilain.setText("");
         nilaix.setText("");
+        Hasil.setText("");
         JenisSoal.setText("");
            
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -343,6 +344,8 @@ public static double faktorial(int angka){
         // TODO add your handling code here:
     }//GEN-LAST:event_HasilActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        this.dispose();
     /**
      * @param args the command line arguments
      */
@@ -374,7 +377,7 @@ public static double faktorial(int angka){
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Aproximasi().setVisible(true);
+                new PrimaTeguh_TUGAS2().setVisible(true);
             }
         });
     }
