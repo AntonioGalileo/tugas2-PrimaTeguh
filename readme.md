@@ -1,7 +1,7 @@
 # TUGAS 2 ASISTENSI ALPRO - Sabtu , 04 Mei 2019
-NAMA:   
+NAMA  :M.Prima Teguh Aliffrianto
 
-NRP:    
+NRP   :06111840000095  
 
 
 ## DESKRIPSI SOAL
